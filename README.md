@@ -12,3 +12,7 @@ the repository structure is set to be as follow :
 
 
 4-torch CNN contains the CNN models that will be trained for Visual classification , detection and segmentation tasks. 
+
+
+5-DCGAN training contains the reference implementation of DCGAN from official PyTorch documentation , the reference model was tuned 
+to perform the generation on digital knee Xray dataset , with modifying its parameters.
