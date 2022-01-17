@@ -16,3 +16,5 @@ the repository structure is set to be as follow :
 
 5-DCGAN training contains the reference implementation of DCGAN from official PyTorch documentation , the reference model was tuned 
 to perform the generation on digital knee Xray dataset , with modifying its parameters.
+
+6-APP directory contains pytorch model deployment using heroku , a simple handwritten MNIST digit classification model deployed in heroku platform ,where the directory also contains the required packages for installation(check for torch official documentation for the versions of Torch and Torchvision , since it might be Updated while you are reading this description, also make sure that in production avoid using Torch Cuda supported and use Torch CPU version) which contains the webAPP starting point ,gitignore file , run time file which contains the python version DENOTED by Heroku ( don't use any version except the published one on Heroku , otherwise your app will not git pushed onto heroku.
